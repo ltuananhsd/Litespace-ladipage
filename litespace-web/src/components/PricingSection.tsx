@@ -27,7 +27,7 @@ export default function PricingSection() {
           >
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-2">Basic</h3>
-              <div className="flex items-baseline gap-1">
+              <div className="flex flex-wrap items-baseline gap-1">
                 <span className="text-5xl font-black text-primary">590.000đ</span>
                 <span className="text-on-surface-variant font-bold">/tháng</span>
               </div>
@@ -52,8 +52,8 @@ export default function PricingSection() {
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#ffc107] text-slate-900 px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest whitespace-nowrap shadow-md">Dễ Chọn Nhất</div>
             <div className="mb-8 text-white">
               <h3 className="text-2xl font-bold mb-2">Upgrade</h3>
-              <div className="flex items-baseline gap-1">
-                <span className="text-6xl font-black">1.090.000đ</span>
+              <div className="flex flex-wrap items-baseline gap-1">
+                <span className="text-5xl lg:text-6xl font-black">1.090.000đ</span>
                 <span className="opacity-80">/tháng</span>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function PricingSection() {
           >
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-2">Premium</h3>
-              <div className="flex items-baseline gap-1">
+              <div className="flex flex-wrap items-baseline gap-1">
                 <span className="text-5xl font-black text-primary">1.190.000đ</span>
                 <span className="text-on-surface-variant font-bold">/tháng</span>
               </div>
