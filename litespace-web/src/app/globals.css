@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-primary: #f0f2ff;
+  --color-on-tertiary-container: #594a00;
+  --color-primary: #0058bb;
+  --color-on-surface: #2c2f31;
+  --color-error-container: #fb5151;
+  --color-tertiary: #6d5a00;
+  --color-primary-fixed: #6c9fff;
+  --color-surface-tint: #0058bb;
+  --color-error-dim: #9f0519;
+  --color-on-tertiary: #fff2ce;
+  --color-secondary-container: #93dbff;
+  --color-on-error: #ffefee;
+  --color-surface: #f5f7f9;
+  --color-primary-container: #6c9fff;
+  --color-inverse-primary: #4b8eff;
+  --color-background: #f5f7f9;
+  --color-primary-dim: #004ca4;
+  --color-surface-container-high: #dfe3e6;
+  --color-tertiary-container: #fdd404;
+  --color-inverse-surface: #0b0f10;
+  --color-secondary: #006382;
+  --color-secondary-dim: #005672;
+  --color-on-secondary-fixed-variant: #005773;
+  --color-surface-bright: #f5f7f9;
+  --color-on-background: #2c2f31;
+  --color-on-primary-fixed: #000000;
+  --color-tertiary-fixed: #fdd404;
+  --color-on-tertiary-fixed: #433700;
+  --color-inverse-on-surface: #9a9d9f;
+  --color-on-primary-fixed-variant: #002a61;
+  --color-tertiary-dim: #5f4e00;
+  --color-surface-container-lowest: #ffffff;
+  --color-error: #b31b25;
+  --color-on-surface-variant: #595c5e;
+  --color-on-secondary-fixed: #00394c;
+  --color-on-tertiary-fixed-variant: #645300;
+  --color-on-primary-container: #00214f;
+  --color-primary-fixed-dim: #5191ff;
+  --color-secondary-fixed: #93dbff;
+  --color-outline: #747779;
+  --color-on-error-container: #570008;
+  --color-secondary-fixed-dim: #78cef7;
+  --color-tertiary-fixed-dim: #edc600;
+  --color-on-secondary: #e5f5ff;
+  --color-surface-container-highest: #d9dde0;
+  --color-surface-container-low: #eef1f3;
+  --color-on-secondary-container: #004d67;
+  --color-surface-variant: #d9dde0;
+  --color-outline-variant: #abadaf;
+  --color-surface-dim: #d0d5d8;
+  --color-surface-container: #e5e9eb;
+
+  --font-headline: var(--font-plus-jakarta-sans), sans-serif;
+  --font-body: var(--font-manrope), sans-serif;
+  --font-label: var(--font-manrope), sans-serif;
+
+  --radius-DEFAULT: 1rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+  --radius-full: 9999px;
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar { display: none; }
+  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .glass-morphism {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-body);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  line-height: 1;
+}
+
+/* CSS Cho Markdown Render trong Chatbot */
+.chat-markdown p {
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+.chat-markdown p:last-child {
+  margin-bottom: 0;
+}
+.chat-markdown ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.chat-markdown ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.chat-markdown li {
+  margin-bottom: 0.25rem;
+}
+.chat-markdown strong {
+  font-weight: 800;
+  color: var(--color-primary);
+}
+.chat-markdown code {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: 'Consolas', 'Courier New', monospace;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.35rem;
+  font-size: 0.85em;
+  border: 1px solid var(--color-outline-variant);
+}
+.chat-markdown pre {
+  background-color: #1e1e1e;
+  color: #e0f2fe;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin-bottom: 0.75rem;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+.chat-markdown pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+  border: none;
+  font-size: 0.9em;
+}
+.chat-markdown blockquote {
+  border-left: 4px solid var(--color-primary);
+  padding-left: 1rem;
+  margin-left: 0;
+  color: var(--color-on-surface-variant);
+  font-style: italic;
+  background-color: var(--color-surface);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin-bottom: 0.75rem;
+}

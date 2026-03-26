@@ -1,0 +1,360 @@
+{
+  "brand": "LiteSpace (IO-Space)",
+  "version": "1.0",
+  "updated": "2026-03-27",
+  "description": "FAQ dành cho chatbot AI tư vấn khách hàng dịch vụ Văn phòng ảo LiteSpace",
+  "faqs": [
+
+    {
+      "id": "GEN-001",
+      "category": "Giới thiệu chung",
+      "question": "Văn phòng ảo LiteSpace là gì?",
+      "answer": "LiteSpace cung cấp dịch vụ Văn phòng ảo (Virtual Office) – giúp doanh nghiệp, startup, freelancer có địa chỉ đăng ký kinh doanh uy tín, nhận thư bưu phẩm, sử dụng phòng họp và nhiều tiện ích chuyên nghiệp khác, mà không cần thuê văn phòng vật lý toàn thời gian. Tiết kiệm chi phí tối đa, nhưng vẫn đảm bảo hình ảnh doanh nghiệp chuyên nghiệp.",
+      "keywords": ["văn phòng ảo", "virtual office", "lite space", "io-space", "giới thiệu", "là gì"]
+    },
+
+    {
+      "id": "GEN-002",
+      "category": "Giới thiệu chung",
+      "question": "LiteSpace phù hợp với đối tượng nào?",
+      "answer": "LiteSpace phù hợp với:\n- Startup / doanh nghiệp mới thành lập muốn tiết kiệm chi phí\n- Freelancer, cá nhân kinh doanh cần địa chỉ đăng ký kinh doanh hợp pháp\n- Doanh nghiệp nước ngoài muốn có địa chỉ pháp lý tại TP.HCM\n- Công ty muốn mở chi nhánh mới nhanh, không cần thuê văn phòng cố định\n- Doanh nghiệp đang thuê văn phòng nhưng muốn tối ưu chi phí",
+      "keywords": ["ai dùng", "phù hợp", "đối tượng", "startup", "freelancer", "doanh nghiệp"]
+    },
+
+    {
+      "id": "GEN-003",
+      "category": "Giới thiệu chung",
+      "question": "Tòa nhà và địa chỉ LiteSpace ở đâu?",
+      "answer": "LiteSpace tọa lạc tại địa chỉ uy tín ở TP.HCM. Tòa nhà đạt chứng nhận LEED (tiêu chuẩn xanh quốc tế), trang bị hệ thống Face-ID 24/7. Địa chỉ cụ thể vui lòng liên hệ đội ngũ tư vấn để được cung cấp thông tin chi tiết.",
+      "keywords": ["địa chỉ", "tòa nhà", "ở đâu", "vị trí", "LEED", "quận"]
+    },
+
+    {
+      "id": "PKG-001",
+      "category": "Gói dịch vụ & Giá",
+      "question": "LiteSpace có những gói dịch vụ nào? Giá bao nhiêu?",
+      "answer": "LiteSpace có 3 gói chính, mỗi gói có 2 phiên bản: LITE và L'MAK:\n\n📦 GÓI BASIC\n- LITE: 590.000đ/tháng\n- L'MAK: 890.000đ/tháng\n\n📦 GÓI UPGRADE\n- LITE: 1.090.000đ/tháng\n- L'MAK: 1.490.000đ/tháng\n\n📦 GÓI PREMIUM\n- LITE: 1.190.000đ/tháng\n- L'MAK: 1.680.000đ/tháng\n\n⭐ KHUYẾN MÃI KHAI TRƯƠNG: Miễn phí 3 tháng đầu – chỉ 599.000đ/tháng từ tháng thứ 4 (áp dụng gói cơ bản).",
+      "keywords": ["gói", "giá", "bao nhiêu", "package", "basic", "upgrade", "premium", "lite", "lmak"]
+    },
+
+    {
+      "id": "PKG-002",
+      "category": "Gói dịch vụ & Giá",
+      "question": "Sự khác nhau giữa gói LITE và L'MAK là gì?",
+      "answer": "Cùng mức gói (Basic/Upgrade/Premium), phiên bản L'MAK bổ sung thêm các tiện ích cao cấp tại tòa nhà so với LITE:\n\n✅ L'MAK có thêm (LITE không có):\n- Internet + không gian tiếp khách tại tòa nhà\n- Face-ID access + Welcome screen\n- Toà nhà đạt chuẩn Sustainability (LEED)\n- Phòng họp miễn phí (2h–4h/tháng tùy gói)\n- Máy in on-demand (gói Basic) hoặc 50–150 tờ/tháng (gói cao hơn)\n- Hỗ trợ mở tài khoản ngân hàng ưu tiên hơn\n- Kế toán miễn phí nhiều tháng hơn\n\nL'MAK phù hợp với khách hàng cần sử dụng không gian thực tế tại tòa nhà thường xuyên hơn.",
+      "keywords": ["lite vs lmak", "khác nhau", "so sánh", "chọn gói nào", "lite", "lmak"]
+    },
+
+    {
+      "id": "PKG-003",
+      "category": "Gói dịch vụ & Giá",
+      "question": "Gói Basic bao gồm những gì?",
+      "answer": "GÓI BASIC (LITE: 590k/tháng | L'MAK: 890k/tháng) bao gồm:\n\n✅ Tất cả phiên bản:\n- Địa chỉ đăng ký kinh doanh / thuế\n- Pháp lý chuẩn văn phòng, an toàn\n- Giao nhận thư (nhận thư tại văn phòng)\n- In card visit loại Standard\n\n➕ Thêm phí (Add-on):\n- Thư scan + chuyển tiếp: 3.300k/năm\n- Hỗ trợ đăng ký doanh nghiệp: 3.300k/doanh nghiệp\n- Thiết kế logo: 1.500k/bộ\n- Website: 1.500k/web\n\n📌 L'MAK Basic thêm:\n- Internet + không gian tiếp khách\n- Face-ID access\n- Sustainability Building\n- Hỗ trợ mở tài khoản ngân hàng (3 ngân hàng)\n- Kế toán miễn phí 3 tháng\n- Phòng họp 2h/tháng\n- Máy in on-demand\n- Hỗ trợ thay đổi GPKD: 1 lần/6 tháng",
+      "keywords": ["gói basic", "basic", "gói cơ bản", "bao gồm", "tính năng basic"]
+    },
+
+    {
+      "id": "PKG-004",
+      "category": "Gói dịch vụ & Giá",
+      "question": "Gói Upgrade bao gồm những gì?",
+      "answer": "GÓI UPGRADE (LITE: 1.090k/tháng | L'MAK: 1.490k/tháng) bao gồm TẤT CẢ của gói Basic, cộng thêm:\n\n✅ Tất cả phiên bản:\n- Thư scan + chuyển tiếp (bao gồm, không phụ thu)\n- Chuyển tiếp email\n- Hỗ trợ đăng ký doanh nghiệp (bao gồm)\n- Hỗ trợ mở tài khoản ngân hàng (3 ngân hàng cơ bản)\n- Kế toán miễn phí 3 tháng (LITE) / 6 tháng (L'MAK)\n- Tư vấn pháp lý: 300 token\n- In card visit loại Luxury\n- Hỗ trợ thay đổi GPKD: 2 lần/năm\n- Thiết kế logo / Website: phí giảm\n\n📌 L'MAK Upgrade thêm:\n- Internet + không gian tiếp khách\n- Face-ID access\n- Hỗ trợ mở TK ngân hàng ưu tiên (5 ngân hàng)\n- Phòng họp 2h/tháng\n- Phòng phỏng vấn on-demand: 300k/giờ\n- Máy in: 50 tờ/tháng\n- Số điện thoại + lễ tân: 3.300k/năm (add-on)",
+      "keywords": ["gói upgrade", "upgrade", "gói tiêu chuẩn", "tính năng upgrade"]
+    },
+
+    {
+      "id": "PKG-005",
+      "category": "Gói dịch vụ & Giá",
+      "question": "Gói Premium bao gồm những gì?",
+      "answer": "GÓI PREMIUM (LITE: 1.190k/tháng | L'MAK: 1.680k/tháng) bao gồm TẤT CẢ của gói Upgrade, cộng thêm:\n\n✅ Tất cả phiên bản:\n- Hỗ trợ mở TK ngân hàng ưu tiên (5 ngân hàng)\n- Kế toán miễn phí 3 tháng (LITE) / 9 tháng (L'MAK)\n- Tư vấn pháp lý: 300 token (LITE) / 600 token (L'MAK)\n- Thiết kế logo: miễn phí 1 bộ\n- Website cơ bản: miễn phí 1 trang\n- Hỗ trợ thay đổi GPKD: 2 lần/năm (LITE) / 3 lần/năm (L'MAK)\n\n📌 L'MAK Premium thêm:\n- Internet + không gian tiếp khách\n- Face-ID access\n- Sustainability Building\n- Phòng họp 4h/tháng\n- Phòng phỏng vấn: có sẵn\n- Máy in: 150 tờ/tháng\n- Số điện thoại hotline: bao gồm\n- Lễ tân trực điện thoại: bao gồm\n- Hỗ trợ tuyển dụng: 1 nhân sự\n- Kế toán miễn phí 9 tháng",
+      "keywords": ["gói premium", "premium", "gói cao cấp", "tính năng premium", "gói vip"]
+    },
+
+    {
+      "id": "PKG-006",
+      "category": "Gói dịch vụ & Giá",
+      "question": "Tôi nên chọn gói nào?",
+      "answer": "Dưới đây là gợi ý theo nhu cầu:\n\n🔹 GÓI BASIC LITE (590k/tháng):\n→ Phù hợp nếu bạn CHỈ cần địa chỉ đăng ký kinh doanh, nhận thư cơ bản, không cần sử dụng không gian thực tế.\n\n🔹 GÓI BASIC L'MAK (890k/tháng):\n→ Cần địa chỉ + muốn thỉnh thoảng họp tại văn phòng, có kế toán miễn phí 3 tháng.\n\n🔹 GÓI UPGRADE LITE/L'MAK (1.090k–1.490k/tháng):\n→ Cần scan thư, chuyển tiếp email, hỗ trợ thành lập doanh nghiệp, có nhu cầu tư vấn pháp lý.\n\n🔹 GÓI PREMIUM L'MAK (1.680k/tháng):\n→ Doanh nghiệp muốn hình ảnh chuyên nghiệp đầy đủ: lễ tân điện thoại, logo, website, kế toán 9 tháng miễn phí, phòng họp.",
+      "keywords": ["chọn gói", "nên dùng gói nào", "tư vấn gói", "phù hợp", "recommend"]
+    },
+
+    {
+      "id": "PRICE-001",
+      "category": "Thanh toán & Ưu đãi",
+      "question": "Có ưu đãi khai trương không?",
+      "answer": "✅ CÓ! LiteSpace đang có chương trình KHUYẾN MÃI KHAI TRƯƠNG:\n- MIỄN PHÍ 3 tháng đầu tiên\n- Chỉ 599.000đ/tháng từ tháng thứ 4 trở đi\n(Áp dụng cho gói cơ bản)\n\nĐây là cơ hội tuyệt vời để trải nghiệm toàn bộ dịch vụ trước khi cam kết dài hạn!",
+      "keywords": ["ưu đãi", "khuyến mãi", "miễn phí", "khai trương", "promotion", "giảm giá"]
+    },
+
+    {
+      "id": "PRICE-002",
+      "category": "Thanh toán & Ưu đãi",
+      "question": "Có thể thanh toán theo kỳ hạn khác nhau không? Có giảm giá không?",
+      "answer": "✅ Có! LiteSpace hỗ trợ nhiều kỳ thanh toán với chiết khấu hấp dẫn (áp dụng gói cơ bản 599k/tháng):\n\n| Kỳ thanh toán | Giá gốc/tháng | Giảm | Giá thực tế | Tiết kiệm |\n|---|---|---|---|---|\n| Hàng tháng | 599.000đ | 0% | 599.000đ/tháng | — |\n| Hàng quý | 599.000đ | 5% | 1.707.150đ/quý | ~90k |\n| 6 tháng | 599.000đ | 8% | 3.306.480đ | ~288k |\n| Hàng năm | 599.000đ | 12% | 6.325.440đ/năm | ~863k |\n\nCác dịch vụ đính kèm (*) được áp dụng mức giá ưu đãi nếu mua package đủ 12 tháng.",
+      "keywords": ["thanh toán", "kỳ hạn", "hàng năm", "hàng quý", "6 tháng", "giảm giá", "chiết khấu"]
+    },
+
+    {
+      "id": "PRICE-003",
+      "category": "Thanh toán & Ưu đãi",
+      "question": "Có thể thanh toán bằng hình thức nào?",
+      "answer": "LiteSpace chấp nhận:\n- Chuyển khoản ngân hàng\n- Tiền mặt tại văn phòng\n- Thanh toán trực tuyến (qua cổng thanh toán online)\n\nSau khi thanh toán, tài khoản sẽ được kích hoạt tự động và bạn nhận thông báo qua email.",
+      "keywords": ["thanh toán", "chuyển khoản", "tiền mặt", "online", "hình thức"]
+    },
+
+    {
+      "id": "SVC-001",
+      "category": "Dịch vụ cụ thể",
+      "question": "Địa chỉ đăng ký kinh doanh tại LiteSpace có hợp lệ pháp lý không?",
+      "answer": "✅ Hoàn toàn hợp lệ! Địa chỉ LiteSpace được công nhận là địa chỉ đăng ký kinh doanh / thuế hợp pháp, đáp ứng tiêu chuẩn pháp lý chuẩn văn phòng. Bạn có thể sử dụng địa chỉ này để:\n- Đăng ký thành lập doanh nghiệp\n- Kê khai thuế\n- Giao dịch với đối tác, ngân hàng, cơ quan nhà nước\n\nLiteSpace cung cấp pháp lý chuẩn văn phòng, an toàn cho tất cả các gói dịch vụ.",
+      "keywords": ["địa chỉ", "pháp lý", "hợp lệ", "đăng ký kinh doanh", "thuế", "giấy phép"]
+    },
+
+    {
+      "id": "SVC-002",
+      "category": "Dịch vụ cụ thể",
+      "question": "Dịch vụ nhận thư / bưu phẩm hoạt động như thế nào?",
+      "answer": "LiteSpace cung cấp 2 mức dịch vụ thư:\n\n📬 Nhận thư cơ bản (tất cả gói):\n- Nhận thư và bưu phẩm gửi đến địa chỉ văn phòng\n- Khách đến lấy trực tiếp tại văn phòng\n\n📬 Nhận thư + Scan + Chuyển tiếp (gói Upgrade trở lên hoặc mua Add-on):\n- Nhận thư, scan nội dung và gửi về email cho bạn\n- Chuyển tiếp thư bưu phẩm đến địa chỉ mong muốn\n- Add-on: 3.300k/năm (gói Basic)\n\n📧 Chuyển tiếp email: có từ gói Upgrade trở lên.",
+      "keywords": ["nhận thư", "bưu phẩm", "scan thư", "chuyển tiếp", "mail handling"]
+    },
+
+    {
+      "id": "SVC-003",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có thể sử dụng phòng họp không? Giá bao nhiêu?",
+      "answer": "✅ Có! LiteSpace cung cấp phòng họp 8 chỗ ngồi.\n\nPhòng họp miễn phí theo gói (chỉ L'MAK):\n- L'MAK Basic: 2h/tháng miễn phí\n- L'MAK Upgrade: 2h/tháng miễn phí\n- L'MAK Premium: 4h/tháng miễn phí\n\nGiá thuê thêm (ngoài quota hoặc gói LITE):\n- L'MAK: 500k/giờ | 1.650k/4 giờ | 2.700k/ngày\n- Upgrade/Premium: 400k/giờ | 1.150k/4 giờ | 1.650k/ngày\n\n⏰ Lưu ý: Cần đặt trước 24h.",
+      "keywords": ["phòng họp", "meeting room", "đặt phòng", "giá phòng họp", "thuê phòng"]
+    },
+
+    {
+      "id": "SVC-004",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có phòng phỏng vấn không? Giá bao nhiêu?",
+      "answer": "✅ Có! LiteSpace có phòng phỏng vấn riêng biệt (2–4 người).\n\nPhòng phỏng vấn theo gói:\n- L'MAK Upgrade: On-demand (đặt khi cần)\n- L'MAK Premium: Bao gồm trong gói (miễn phí)\n- LITE: Không bao gồm\n\nGiá thuê:\n- 300k/giờ (áp dụng Upgrade/Premium khi vượt quota)\n\n⏰ Lưu ý: Cần đặt trước 2h.",
+      "keywords": ["phòng phỏng vấn", "interview room", "thuê phòng phỏng vấn"]
+    },
+
+    {
+      "id": "SVC-005",
+      "category": "Dịch vụ cụ thể",
+      "question": "LiteSpace có hỗ trợ thành lập doanh nghiệp không?",
+      "answer": "✅ Có! LiteSpace hỗ trợ thành lập doanh nghiệp trọn gói:\n\n- Gói Basic: Thêm phí 3.300k/doanh nghiệp\n- Gói Upgrade trở lên: Bao gồm trong gói (miễn phí)\n\nCombo dịch vụ thành lập doanh nghiệp bao gồm:\n- Hợp đồng điện tử\n- Khắc dấu doanh nghiệp\n- Hỗ trợ toàn bộ thủ tục pháp lý\n\nĐây là lựa chọn lý tưởng cho startup muốn vừa có địa chỉ văn phòng, vừa hoàn thiện pháp lý doanh nghiệp trong một gói.",
+      "keywords": ["thành lập doanh nghiệp", "đăng ký doanh nghiệp", "thủ tục", "pháp lý", "khắc dấu"]
+    },
+
+    {
+      "id": "SVC-006",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có dịch vụ kế toán / thuế không?",
+      "answer": "✅ Có! LiteSpace cung cấp dịch vụ kế toán theo 2 hướng:\n\n🎁 Miễn phí theo gói:\n- L'MAK Basic: Kế toán miễn phí 3 tháng\n- LITE Upgrade: Kế toán miễn phí 3 tháng\n- L'MAK Upgrade: Kế toán miễn phí 6 tháng\n- LITE Premium: Kế toán miễn phí 3 tháng\n- L'MAK Premium: Kế toán miễn phí 9 tháng\n\n💰 Dịch vụ mua thêm:\n- Kế toán cơ bản: 500k–800k/tháng (12 tháng đầu)\n- Kế toán nâng cao: 5tr–8tr/tháng\n\nBao gồm: Báo cáo thuế + Báo cáo tài chính (BCTC).",
+      "keywords": ["kế toán", "thuế", "báo cáo tài chính", "khai thuế", "BCTC"]
+    },
+
+    {
+      "id": "SVC-007",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có dịch vụ tư vấn pháp lý không?",
+      "answer": "✅ Có! Dịch vụ tư vấn pháp lý / hành chính tại LiteSpace:\n\n🎁 Theo gói:\n- Gói Upgrade: 300 token tư vấn pháp lý\n- Gói Premium L'MAK: 600 token tư vấn pháp lý\n\n💰 Mua thêm:\n- 1.000đ/token (áp dụng gói Upgrade/Premium)\n\nHình thức: Tư vấn qua video call.\n\nDịch vụ hỗ trợ: đổi địa chỉ, thay đổi tên công ty, giấy phép kinh doanh và các vấn đề hành chính khác.",
+      "keywords": ["pháp lý", "tư vấn luật", "tư vấn pháp lý", "hành chính", "đổi địa chỉ", "token"]
+    },
+
+    {
+      "id": "SVC-008",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có hỗ trợ mở tài khoản ngân hàng không?",
+      "answer": "✅ Có! LiteSpace hỗ trợ mở tài khoản ngân hàng tại văn phòng:\n\n- LITE Basic: Không bao gồm (mua add-on nếu cần)\n- L'MAK Basic: Hỗ trợ mở 3 ngân hàng (cơ bản) – MIỄN PHÍ\n- Gói Upgrade (LITE + L'MAK): 3–5 ngân hàng\n- Gói Premium: Ưu tiên 5 ngân hàng\n\nPhí: Miễn phí – làm việc tại văn phòng LiteSpace.\n\nĐây là dịch vụ đặc biệt tiện lợi cho doanh nghiệp mới thành lập.",
+      "keywords": ["tài khoản ngân hàng", "mở tài khoản", "ngân hàng", "bank"]
+    },
+
+    {
+      "id": "SVC-009",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có in card visit không? Thiết kế logo và website không?",
+      "answer": "✅ Có! LiteSpace cung cấp đầy đủ dịch vụ marketing & thương hiệu:\n\n🪪 In card visit:\n- Tất cả gói: Standard (Basic) hoặc Luxury (Upgrade/Premium)\n- Add-on: 200k/100 tờ | Thiết kế thêm: +200k\n\n🎨 Thiết kế logo:\n- Gói Basic/Upgrade: 1.500k/bộ (Basic) | 1.000k/bộ (Upgrade – giá giảm)\n- Gói Premium LITE: Miễn phí 1 bộ\n- Gói Premium L'MAK: Miễn phí 2 bộ\n\n🌐 Website 1 trang:\n- Gói Basic/Upgrade: 1.500k/web | Thêm tên miền 1 năm\n- Gói Premium LITE: Miễn phí 1 trang\n- Gói Premium L'MAK: Miễn phí (có tên miền 1 năm)",
+      "keywords": ["card visit", "name card", "logo", "website", "thiết kế", "in ấn"]
+    },
+
+    {
+      "id": "SVC-010",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có dịch vụ lễ tân và số điện thoại văn phòng không?",
+      "answer": "✅ Có, áp dụng từ gói Upgrade trở lên:\n\n📞 Số điện thoại hotline:\n- Gói Upgrade (LITE + L'MAK): Mua thêm 3.300k/năm\n- Gói Premium L'MAK: Bao gồm trong gói (miễn phí)\n\n👩‍💼 Lễ tân trực điện thoại:\n- Gói Upgrade (LITE + L'MAK): Mua thêm 3.300k/năm\n- Gói Premium L'MAK: Bao gồm trong gói (miễn phí)\n\nDịch vụ lễ tân giúp doanh nghiệp của bạn có hình ảnh chuyên nghiệp, không bỏ lỡ cuộc gọi quan trọng.",
+      "keywords": ["lễ tân", "số điện thoại", "hotline", "trực điện thoại", "receptionist"]
+    },
+
+    {
+      "id": "SVC-011",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có dịch vụ máy in / scan không?",
+      "answer": "✅ Có! Dịch vụ máy in/scan tại LiteSpace:\n\nTheo gói:\n- LITE (tất cả gói): Không bao gồm, tính theo tờ\n- L'MAK Basic: On-demand – 50 tờ/200k\n- L'MAK Upgrade: 50 tờ/tháng miễn phí – thêm: 3k/tờ\n- L'MAK Premium: 150 tờ/tháng miễn phí – thêm: 3k/tờ\n\nGiá add-on:\n- In/scan đen trắng: 2.000đ/tờ\n- In màu: +3.000đ/tờ (tổng ~5.000đ/tờ)",
+      "keywords": ["máy in", "scan", "in ấn", "photocopy", "tờ"]
+    },
+
+    {
+      "id": "SVC-012",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có dịch vụ hỗ trợ tuyển dụng không?",
+      "answer": "✅ Có! Dịch vụ hỗ trợ tuyển dụng tại LiteSpace:\n\nTheo gói:\n- Gói Premium L'MAK: Bao gồm 1 nhân sự miễn phí\n\nMua thêm:\n- 1.000k/JD (đăng 3 kênh tuyển dụng)\n\nPhù hợp với doanh nghiệp mới cần tìm nhân sự nhanh mà không muốn dùng agency tốn kém.",
+      "keywords": ["tuyển dụng", "nhân sự", "đăng tuyển", "tìm việc", "HR"]
+    },
+
+    {
+      "id": "SVC-013",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có dịch vụ xe đưa đón sân bay không?",
+      "answer": "✅ Có! Dịch vụ VIP xe đưa đón sân bay:\n- Giá: 350.000đ/chuyến\n- Yêu cầu: Báo trước 4 giờ\n- Gói Basic (cũ) cao cấp: 2 chuyến/năm miễn phí\n\nDịch vụ này dành cho khách hàng, đối tác của doanh nghiệp muốn tạo ấn tượng chuyên nghiệp.",
+      "keywords": ["xe đưa đón", "sân bay", "airport", "transfer", "xe"]
+    },
+
+    {
+      "id": "SVC-014",
+      "category": "Dịch vụ cụ thể",
+      "question": "Có chỗ đỗ xe không?",
+      "answer": "✅ LiteSpace có dịch vụ đỗ xe:\n- Giá: 500.000đ/tháng\n- Lưu ý: Còn chỗ hạn chế – cần đăng ký trước\n\nVui lòng liên hệ sớm để giữ chỗ.",
+      "keywords": ["đỗ xe", "parking", "gửi xe", "chỗ xe"]
+    },
+
+    {
+      "id": "TECH-001",
+      "category": "Công nghệ & Tiện ích",
+      "question": "Hệ thống Face-ID là gì? Hoạt động như thế nào?",
+      "answer": "🔒 Face-ID tại LiteSpace là hệ thống nhận diện khuôn mặt thế hệ mới:\n- Ra vào tòa nhà 24/7 hoàn toàn tự động\n- Không cần thẻ từ, không lo mất chìa khóa\n- Công nghệ hiện đại, an toàn bảo mật cao\n- Welcome screen hiển thị tên doanh nghiệp của bạn khi vào\n\n✅ Có tại: Tất cả gói L'MAK (Basic, Upgrade, Premium)\n❌ Không có tại: Gói LITE",
+      "keywords": ["face ID", "nhận diện khuôn mặt", "ra vào", "an ninh", "welcome screen"]
+    },
+
+    {
+      "id": "TECH-002",
+      "category": "Công nghệ & Tiện ích",
+      "question": "Tòa nhà LEED là gì? Có lợi ích gì?",
+      "answer": "🌿 LEED (Leadership in Energy and Environmental Design) là chứng nhận công trình xanh quốc tế:\n- Tòa nhà tiết kiệm năng lượng, thân thiện môi trường\n- Không khí trong lành, ánh sáng tự nhiên tốt cho sức khỏe\n- Tạo điểm cộng khi làm việc với đối tác quốc tế (ESG compliance)\n- Hình ảnh doanh nghiệp hiện đại, có trách nhiệm\n\n✅ Có tại: Tất cả gói L'MAK\n❌ Không có tại: Gói LITE",
+      "keywords": ["LEED", "xanh", "sustainability", "môi trường", "green building"]
+    },
+
+    {
+      "id": "PROCESS-001",
+      "category": "Quy trình đăng ký",
+      "question": "Quy trình đăng ký dịch vụ như thế nào?",
+      "answer": "Quy trình đăng ký dịch vụ LiteSpace rất đơn giản:\n\n1️⃣ Tìm hiểu dịch vụ → Truy cập website hoặc chat với AI tư vấn\n2️⃣ Chọn gói phù hợp → AI gợi ý gói dựa trên nhu cầu của bạn\n3️⃣ Điền thông tin → Mẫu đăng ký nhanh online\n4️⃣ Upload hồ sơ → Tải lên giấy tờ cần thiết\n5️⃣ KYC → Xác minh danh tính (bảo mật & tuân thủ pháp lý)\n6️⃣ Ký hợp đồng điện tử → E-Sign tiện lợi, không cần đến tận nơi\n7️⃣ Thanh toán → Qua cổng online hoặc chuyển khoản\n8️⃣ Kích hoạt → Tài khoản được kích hoạt tự động, nhận email xác nhận\n\n⏱️ Toàn bộ quy trình có thể hoàn thành trong vòng 1 ngày làm việc.",
+      "keywords": ["đăng ký", "quy trình", "thủ tục", "bắt đầu", "mở dịch vụ", "hồ sơ"]
+    },
+
+    {
+      "id": "PROCESS-002",
+      "category": "Quy trình đăng ký",
+      "question": "Cần chuẩn bị giấy tờ gì để đăng ký?",
+      "answer": "Để đăng ký dịch vụ văn phòng ảo LiteSpace, bạn cần chuẩn bị:\n\nĐối với cá nhân / freelancer:\n- CMND / CCCD (còn hiệu lực)\n- Ảnh chân dung\n\nĐối với doanh nghiệp:\n- Giấy đăng ký kinh doanh (hoặc giấy tờ thành lập nếu chưa có)\n- CMND / CCCD của người đại diện pháp luật\n- Mã số thuế doanh nghiệp\n\nLưu ý: Tất cả giấy tờ có thể upload online, không cần nộp bản cứng.",
+      "keywords": ["giấy tờ", "hồ sơ", "CMND", "CCCD", "giấy phép kinh doanh", "chuẩn bị"]
+    },
+
+    {
+      "id": "PROCESS-003",
+      "category": "Quy trình đăng ký",
+      "question": "Bao lâu thì được kích hoạt dịch vụ?",
+      "answer": "✅ Sau khi hoàn tất thanh toán và KYC:\n- Tài khoản được kích hoạt tự động\n- Email thông báo kích hoạt gửi ngay lập tức\n- Địa chỉ kinh doanh có hiệu lực từ ngày bắt đầu hợp đồng\n\nThông thường toàn bộ quy trình từ đăng ký đến kích hoạt hoàn thành trong 1 ngày làm việc.",
+      "keywords": ["kích hoạt", "bao lâu", "thời gian", "chờ", "xử lý"]
+    },
+
+    {
+      "id": "CONTRACT-001",
+      "category": "Hợp đồng & Gia hạn",
+      "question": "Hợp đồng tối thiểu bao lâu?",
+      "answer": "LiteSpace không bắt buộc hợp đồng dài hạn. Bạn có thể đăng ký:\n- Hàng tháng (linh hoạt nhất)\n- Hàng quý (tiết kiệm 5%)\n- 6 tháng (tiết kiệm 8%)\n- 1 năm (tiết kiệm 12%)\n\nBạn có thể bắt đầu với gói tháng để trải nghiệm, sau đó nâng cấp lên gói dài hơn để hưởng ưu đãi.",
+      "keywords": ["hợp đồng", "thời hạn", "tối thiểu", "tháng", "năm", "gia hạn"]
+    },
+
+    {
+      "id": "CONTRACT-002",
+      "category": "Hợp đồng & Gia hạn",
+      "question": "Có thể hủy hoặc tạm dừng dịch vụ không?",
+      "answer": "Bạn có thể liên hệ LiteSpace để:\n- Tạm dừng dịch vụ (trường hợp đặc biệt)\n- Không gia hạn khi hết hạn hợp đồng\n- Nâng hoặc hạ cấp gói dịch vụ\n\nLưu ý: Điều kiện hủy hợp đồng cụ thể sẽ được nêu rõ trong hợp đồng điện tử ký kết. Vui lòng liên hệ đội ngũ hỗ trợ để được tư vấn chi tiết.",
+      "keywords": ["hủy", "tạm dừng", "chấm dứt", "không gia hạn", "refund", "hoàn tiền"]
+    },
+
+    {
+      "id": "CONTRACT-003",
+      "category": "Hợp đồng & Gia hạn",
+      "question": "Có thể nâng cấp gói dịch vụ sau khi đăng ký không?",
+      "answer": "✅ Có! Bạn có thể nâng cấp (upgrade) từ gói thấp hơn lên gói cao hơn bất kỳ lúc nào. Chi phí sẽ được tính theo tỷ lệ thời gian còn lại.\n\nVui lòng liên hệ đội ngũ CSKH để được hỗ trợ nâng cấp nhanh nhất.",
+      "keywords": ["nâng cấp", "upgrade", "đổi gói", "chuyển gói"]
+    },
+
+    {
+      "id": "COMPARE-001",
+      "category": "So sánh & Lợi thế",
+      "question": "LiteSpace có gì khác so với các đơn vị văn phòng ảo khác?",
+      "answer": "LiteSpace nổi bật với những lợi thế cạnh tranh độc đáo:\n\n🔐 Face-ID 24/7 – Công nghệ ra vào hiện đại, không cần thẻ từ\n🌿 Tòa nhà chuẩn LEED – Thân thiện môi trường, điểm cộng với đối tác quốc tế\n📍 Địa chỉ uy tín – Vị trí đắc địa tại TP.HCM, tạo niềm tin ngay từ ấn tượng đầu tiên\n✅ An tâm về thuế – Hỗ trợ kê khai, tư vấn thuế đầy đủ\n💰 Giá cạnh tranh – Cao hơn văn phòng ảo giá rẻ nhưng xứng đáng; thấp hơn G-Office và các đơn vị nước ngoài\n🎁 Miễn phí 3 tháng đầu – Khởi nghiệp không áp lực",
+      "keywords": ["so sánh", "khác biệt", "tốt hơn", "lợi thế", "ưu điểm", "tại sao chọn"]
+    },
+
+    {
+      "id": "COMPARE-002",
+      "category": "So sánh & Lợi thế",
+      "question": "Văn phòng ảo có thể dùng để đăng ký thuế và BHXH không?",
+      "answer": "✅ Địa chỉ văn phòng ảo LiteSpace được chấp nhận cho:\n- Đăng ký mã số thuế doanh nghiệp\n- Địa chỉ trụ sở trên giấy phép kinh doanh\n- Giao dịch với cơ quan thuế, hải quan\n\nVề BHXH: Địa chỉ văn phòng ảo thường được dùng cho đăng ký ban đầu. Tuy nhiên, một số cơ quan BHXH có thể yêu cầu xác nhận địa chỉ thực tế trong một số trường hợp cụ thể. Vui lòng liên hệ đội ngũ tư vấn pháp lý của LiteSpace để được hỗ trợ chi tiết theo từng trường hợp.",
+      "keywords": ["thuế", "BHXH", "bảo hiểm xã hội", "đăng ký thuế", "cơ quan nhà nước"]
+    },
+
+    {
+      "id": "ADDON-001",
+      "category": "Dịch vụ bổ sung (Add-on)",
+      "question": "Có những dịch vụ bổ sung nào có thể mua thêm?",
+      "answer": "LiteSpace cung cấp đa dạng dịch vụ bổ sung (Add-on) theo nhu cầu:\n\n| Dịch vụ | Đơn giá |\n|---|---|\n| Phòng họp thêm | 400k–500k/giờ |\n| Phòng phỏng vấn thêm | 300k/giờ |\n| Máy in / scan trắng đen | 2.000đ/tờ |\n| Máy in màu | ~5.000đ/tờ |\n| In card visit | 200k/100 tờ |\n| Thiết kế logo | 1.000k–1.500k/bộ |\n| Website 1 trang | 1.500k/web |\n| Kế toán cơ bản | 500k–800k/tháng |\n| Kế toán nâng cao | 5tr–8tr/tháng |\n| Tư vấn pháp lý | 1.000đ/token |\n| Hỗ trợ tuyển dụng | 1.000k/JD |\n| Xe đưa đón sân bay | 350k/chuyến |\n| Thành lập doanh nghiệp | 3.300k/bộ hồ sơ |\n| Scan thư + chuyển tiếp | 3.300k/năm |\n| Chỗ đỗ xe | 500k/tháng |\n| Số ĐT + lễ tân | 3.300k/năm |",
+      "keywords": ["add-on", "dịch vụ bổ sung", "mua thêm", "phụ phí", "extra"]
+    },
+
+    {
+      "id": "CONTACT-001",
+      "category": "Liên hệ & Hỗ trợ",
+      "question": "Làm sao để liên hệ LiteSpace?",
+      "answer": "Bạn có thể liên hệ LiteSpace qua các kênh sau:\n- 💬 Chat trực tiếp với AI tư vấn trên website (ngay lúc này!)\n- 📞 Hotline: Liên hệ đội ngũ kinh doanh để được cung cấp số điện thoại\n- 🌐 Website chính thức của LiteSpace\n- 📍 Ghé thăm trực tiếp văn phòng tại TP.HCM\n\nĐội ngũ CSKH của LiteSpace sẽ phản hồi trong thời gian sớm nhất!",
+      "keywords": ["liên hệ", "hotline", "điện thoại", "email", "tư vấn", "hỗ trợ", "contact"]
+    },
+
+    {
+      "id": "CONTACT-002",
+      "category": "Liên hệ & Hỗ trợ",
+      "question": "Tôi có thể đến tham quan văn phòng trước khi đăng ký không?",
+      "answer": "✅ Hoàn toàn có thể! LiteSpace khuyến khích khách hàng đến tham quan trực tiếp để:\n- Trải nghiệm không gian làm việc thực tế\n- Xem hệ thống Face-ID, phòng họp, phòng phỏng vấn\n- Gặp trực tiếp đội ngũ tư vấn\n\nVui lòng đặt lịch tham quan trước để được đón tiếp chu đáo. Liên hệ đội ngũ tư vấn để sắp xếp thời gian phù hợp.",
+      "keywords": ["tham quan", "xem văn phòng", "ghé thăm", "showroom", "trải nghiệm"]
+    },
+
+    {
+      "id": "SPECIAL-001",
+      "category": "Trường hợp đặc biệt",
+      "question": "Tôi là người nước ngoài, có thể dùng dịch vụ này không?",
+      "answer": "✅ Có! LiteSpace hỗ trợ cả khách hàng nước ngoài:\n- Địa chỉ hợp lệ cho doanh nghiệp FDI (Đầu tư nước ngoài)\n- Hỗ trợ thủ tục pháp lý cho người nước ngoài thành lập doanh nghiệp tại VN\n- Đội ngũ có thể hỗ trợ tiếng Anh\n\nVui lòng liên hệ trực tiếp để được tư vấn chi tiết theo từng trường hợp cụ thể.",
+      "keywords": ["người nước ngoài", "foreigner", "FDI", "nước ngoài", "tiếng Anh"]
+    },
+
+    {
+      "id": "SPECIAL-002",
+      "category": "Trường hợp đặc biệt",
+      "question": "Tôi đã có doanh nghiệp, chỉ muốn đổi địa chỉ sang LiteSpace được không?",
+      "answer": "✅ Hoàn toàn được! LiteSpace hỗ trợ doanh nghiệp đang hoạt động muốn chuyển địa chỉ đăng ký kinh doanh sang LiteSpace.\n\nDịch vụ hỗ trợ thay đổi GPKD:\n- Gói Basic L'MAK: 1 lần/6 tháng (tính phí: 1.000k/lần)\n- Gói Upgrade: 2 lần/năm (500k/lần thêm)\n- Gói Premium L'MAK: 3 lần/năm (500k/lần thêm)\n\nThủ tục đơn giản, LiteSpace hỗ trợ toàn bộ hồ sơ pháp lý.",
+      "keywords": ["đổi địa chỉ", "chuyển địa chỉ", "thay đổi trụ sở", "đang có doanh nghiệp", "GPKD"]
+    },
+
+    {
+      "id": "SPECIAL-003",
+      "category": "Trường hợp đặc biệt",
+      "question": "Tôi chưa có doanh nghiệp, muốn vừa thành lập vừa thuê văn phòng ảo được không?",
+      "answer": "✅ Hoàn toàn được và đây là giải pháp tối ưu nhất!\n\nLiteSpace cung cấp gói combo:\n- Thuê địa chỉ văn phòng ảo + Hỗ trợ thành lập doanh nghiệp trọn gói\n- Gói Upgrade trở lên: Thành lập DN miễn phí (bao gồm HĐ điện tử + khắc dấu)\n- Gói Basic: Thành lập DN với phí 3.300k\n\nBạn chỉ cần chuẩn bị CMND/CCCD và thông tin doanh nghiệp muốn đặt – LiteSpace lo phần còn lại!",
+      "keywords": ["chưa có doanh nghiệp", "thành lập mới", "startup", "mới bắt đầu", "combo"]
+    },
+
+    {
+      "id": "SPECIAL-004",
+      "category": "Trường hợp đặc biệt",
+      "question": "Tôi cần không gian làm việc thực tế thường xuyên, có phù hợp không?",
+      "answer": "Nếu bạn cần không gian làm việc thường xuyên, LiteSpace gợi ý:\n\n✅ Gói L'MAK (các cấp) có:\n- Internet + không gian tiếp khách tại tòa nhà\n- Phòng họp miễn phí 2–4h/tháng\n- Pantry/bếp nhỏ (gói Upgrade+)\n- Không gian co-working (gói Premium: không giới hạn)\n\nTuy nhiên, nếu bạn cần không gian làm việc hàng ngày toàn thời gian, LiteSpace khuyên bạn cân nhắc gói co-working hoặc thuê văn phòng nhỏ. Liên hệ để được tư vấn giải pháp phù hợp nhất!",
+      "keywords": ["làm việc thực tế", "co-working", "ngồi làm việc", "chỗ ngồi", "không gian"]
+    },
+
+    {
+      "id": "SPECIAL-005",
+      "category": "Trường hợp đặc biệt",
+      "question": "Dịch vụ tư vấn kế toán có đủ không hay cần thuê thêm đơn vị khác?",
+      "answer": "LiteSpace cung cấp:\n\n✅ Phù hợp cho doanh nghiệp nhỏ / startup:\n- Kế toán cơ bản: Báo cáo thuế + BCTC định kỳ: 500k–800k/tháng\n- Đủ cho doanh nghiệp có quy mô nhỏ, doanh thu đơn giản\n\n⚡ Doanh nghiệp quy mô lớn hơn:\n- Kế toán nâng cao: 5tr–8tr/tháng\n- Bao gồm tư vấn chuyên sâu, quyết toán thuế, BCTC đầy đủ\n\nNếu doanh nghiệp có nhiều giao dịch phức tạp, nhiều nhân sự, xuất nhập khẩu... vui lòng liên hệ để được tư vấn giải pháp kế toán phù hợp.",
+      "keywords": ["kế toán", "đủ không", "thuê kế toán", "dịch vụ kế toán", "báo cáo thuế"]
+    }
+  ]
+}
