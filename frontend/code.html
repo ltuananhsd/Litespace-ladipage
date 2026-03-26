@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LITE Space - Văn phòng ảo chuyên nghiệp</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary": "#f0f2ff",
+              "on-tertiary-container": "#594a00",
+              "primary": "#0058bb",
+              "on-surface": "#2c2f31",
+              "error-container": "#fb5151",
+              "tertiary": "#6d5a00",
+              "primary-fixed": "#6c9fff",
+              "surface-tint": "#0058bb",
+              "error-dim": "#9f0519",
+              "on-tertiary": "#fff2ce",
+              "secondary-container": "#93dbff",
+              "on-error": "#ffefee",
+              "surface": "#f5f7f9",
+              "primary-container": "#6c9fff",
+              "inverse-primary": "#4b8eff",
+              "background": "#f5f7f9",
+              "primary-dim": "#004ca4",
+              "surface-container-high": "#dfe3e6",
+              "tertiary-container": "#fdd404",
+              "inverse-surface": "#0b0f10",
+              "secondary": "#006382",
+              "secondary-dim": "#005672",
+              "on-secondary-fixed-variant": "#005773",
+              "surface-bright": "#f5f7f9",
+              "on-background": "#2c2f31",
+              "on-primary-fixed": "#000000",
+              "tertiary-fixed": "#fdd404",
+              "on-tertiary-fixed": "#433700",
+              "inverse-on-surface": "#9a9d9f",
+              "on-primary-fixed-variant": "#002a61",
+              "tertiary-dim": "#5f4e00",
+              "surface-container-lowest": "#ffffff",
+              "error": "#b31b25",
+              "on-surface-variant": "#595c5e",
+              "on-secondary-fixed": "#00394c",
+              "on-tertiary-fixed-variant": "#645300",
+              "on-primary-container": "#00214f",
+              "primary-fixed-dim": "#5191ff",
+              "secondary-fixed": "#93dbff",
+              "outline": "#747779",
+              "on-error-container": "#570008",
+              "secondary-fixed-dim": "#78cef7",
+              "tertiary-fixed-dim": "#edc600",
+              "on-secondary": "#e5f5ff",
+              "surface-container-highest": "#d9dde0",
+              "surface-container-low": "#eef1f3",
+              "on-secondary-container": "#004d67",
+              "surface-variant": "#d9dde0",
+              "outline-variant": "#abadaf",
+              "surface-dim": "#d0d5d8",
+              "surface-container": "#e5e9eb"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .hide-scrollbar::-webkit-scrollbar { display: none; }
+            .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+            .parallax-bg {
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .glass-morphism {
+                background: rgba(255, 255, 255, 0.7);
+                backdrop-filter: blur(12px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+            .floating {
+                animation: float 6s ease-in-out infinite;
+            }
+            @keyframes float {
+                0% { transform: translateY(0px); }
+                50% { transform: translateY(-20px); }
+                100% { transform: translateY(0px); }
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden">
+<nav class="fixed top-6 left-1/2 -translate-x-1/2 z-[100] w-[90%] max-w-5xl glass-morphism rounded-full px-8 py-3 flex justify-between items-center shadow-xl">
+<div class="text-xl font-black text-primary tracking-tighter font-headline">LITE Space</div>
+<div class="hidden md:flex items-center gap-8 font-medium text-sm">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#narrative">Về chúng tôi</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#pricing-carousel">Bảng giá</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#contact">Liên hệ</a>
+</div>
+<button class="bg-primary text-on-primary px-5 py-2 rounded-full font-bold text-xs hover:scale-105 transition-transform">Đăng ký ngay</button>
+</nav>
+<main class="relative" id="narrative">
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Panoramic Office" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmq887yKk9z2HosWjGY3pUExNqWLoDyfR7lWNa4FT_d75vgwjZHsQFuBL3jfbuq0DV2JkCGAcwCYhkfEOo0ZJmBTf34pXeFnOHN3vOfKESXqICfXeXVH9QqxAO_dqf299v18PMS_rwwanH71NIM7ftbYEDmpQ3mwMgF6X0ORwig_nNpSMxAEiiPtL9zM1N3xiLXqNUy_s7mA1Xw2-yC5jHgW58qS052Tat31NegZwwSQ6sYo6mHOmrpeJhihi8RNwskUJ_zPwYTn4"/>
+<div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-surface"></div>
+</div>
+<div class="relative z-10 text-center max-w-4xl px-6">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider mb-8">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+                    Giải pháp văn phòng 4.0
+                </div>
+<h1 class="font-headline text-5xl md:text-8xl font-extrabold text-white leading-[1.1] tracking-tight mb-8">
+                    Văn phòng ảo <span class="text-primary-container">chuyên nghiệp</span>
+</h1>
+<p class="text-xl md:text-2xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed">
+                    Tiết kiệm chi phí – Vận hành linh hoạt – Địa chỉ uy tín. Khởi tạo sự nghiệp vững chắc cùng LITE Space.
+                </p>
+<div class="mt-12 flex justify-center gap-4">
+<button class="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-xl shadow-2xl hover:scale-105 transition-all">Đăng ký ngay</button>
+</div>
+</div>
+</section>
+<section class="relative min-h-screen py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div class="space-y-12">
+<h2 class="font-headline text-4xl md:text-6xl font-extrabold tracking-tight">Tại sao chọn LITE Space?</h2>
+<p class="text-on-surface-variant text-xl">Tối ưu hóa nguồn lực để tập trung vào giá trị cốt lõi.</p>
+<div class="relative h-[400px] w-full hidden md:block">
+<div class="absolute top-0 left-0 glass-morphism p-6 rounded-3xl shadow-xl max-w-[240px] floating" style="animation-delay: 0s;">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">location_on</span>
+<h3 class="font-bold mb-2">Địa chỉ uy tín</h3>
+<p class="text-xs text-on-surface-variant">Vị trí đắc địa tại trung tâm thành phố giúp nâng tầm hình ảnh thương hiệu.</p>
+</div>
+<div class="absolute top-20 right-0 glass-morphism p-6 rounded-3xl shadow-xl max-w-[240px] floating" style="animation-delay: 1s;">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">support_agent</span>
+<h3 class="font-bold mb-2">Lễ tân chuyên nghiệp</h3>
+<p class="text-xs text-on-surface-variant">Đội ngũ lễ tân được đào tạo bài bản, đón tiếp khách hàng chu đáo.</p>
+</div>
+<div class="absolute bottom-10 left-1/4 glass-morphism p-6 rounded-3xl shadow-xl max-w-[240px] floating" style="animation-delay: 2s;">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">mark_as_unread</span>
+<h3 class="font-bold mb-2">Xử lý thư tín</h3>
+<p class="text-xs text-on-surface-variant">Nhận và thông báo thư từ, bưu phẩm ngay lập tức qua App/Email.</p>
+</div>
+<div class="absolute bottom-20 right-10 glass-morphism p-6 rounded-3xl shadow-xl max-w-[240px] floating" style="animation-delay: 3s;">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">savings</span>
+<h3 class="font-bold mb-2">Tiết kiệm 90%</h3>
+<p class="text-xs text-on-surface-variant">Giảm tối đa chi phí vận hành so với thuê văn phòng truyền thống.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-6 md:hidden">
+<div class="bg-white p-6 rounded-2xl shadow-sm border border-outline-variant/10">
+<h3 class="font-bold flex items-center gap-2"><span class="material-symbols-outlined text-primary">location_on</span> Địa chỉ uy tín</h3>
+</div>
+<div class="bg-white p-6 rounded-2xl shadow-sm border border-outline-variant/10">
+<h3 class="font-bold flex items-center gap-2"><span class="material-symbols-outlined text-primary">support_agent</span> Lễ tân chuyên nghiệp</h3>
+</div>
+</div>
+</div>
+<div class="relative group">
+<img alt="Office Lifestyle" class="rounded-[4rem] w-full h-[600px] object-cover shadow-2xl transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmq887yKk9z2HosWjGY3pUExNqWLoDyfR7lWNa4FT_d75vgwjZHsQFuBL3jfbuq0DV2JkCGAcwCYhkfEOo0ZJmBTf34pXeFnOHN3vOfKESXqICfXeXVH9QqxAO_dqf299v18PMS_rwwanH71NIM7ftbYEDmpQ3mwMgF6X0ORwig_nNpSMxAEiiPtL9zM1N3xiLXqNUy_s7mA1Xw2-yC5jHgW58qS052Tat31NegZwwSQ6sYo6mHOmrpeJhihi8RNwskUJ_zPwYTn4"/>
+<div class="absolute -bottom-10 -right-10 bg-white p-8 rounded-3xl shadow-2xl border border-primary/10 max-w-xs">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-3 h-3 bg-tertiary rounded-full animate-pulse"></div>
+<span class="text-sm font-bold">Trạng thái trực tuyến</span>
+</div>
+<p class="text-sm font-bold text-on-surface">500+ Doanh nghiệp đã tham gia hệ sinh thái của chúng tôi</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-primary/5" id="pricing-carousel">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-16">
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-center">Gói dịch vụ linh hoạt</h2>
+<p class="text-on-surface-variant text-center text-lg">Cuộn ngang để so sánh các đặc quyền dành riêng cho bạn</p>
+</div>
+<div class="flex gap-8 overflow-x-auto pb-12 snap-x snap-mandatory hide-scrollbar">
+<div class="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white p-10 rounded-3xl shadow-lg border border-outline-variant/10">
+<div class="mb-8">
+<h3 class="text-2xl font-bold mb-2">Basic</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-5xl font-black text-primary">590.000đ</span>
+<span class="text-on-surface-variant font-bold">/tháng</span>
+</div>
+</div>
+<ul class="space-y-5 mb-10">
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Địa chỉ kinh doanh hợp pháp</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Tuân thủ pháp lý doanh nghiệp</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Tiếp nhận thư từ, bưu phẩm</li>
+<li class="flex items-center gap-3 text-sm font-medium opacity-50"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Scan thư (có phí)</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Danh thiếp tiêu chuẩn</li>
+</ul>
+<button class="w-full py-4 rounded-full font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all">Chọn Basic</button>
+</div>
+<div class="snap-center shrink-0 w-[85vw] md:w-[450px] bg-primary p-12 rounded-3xl shadow-2xl relative">
+<div class="absolute -top-4 right-10 bg-tertiary-container text-on-tertiary-container px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest">Dễ chọn nhất</div>
+<div class="mb-8 text-white">
+<h3 class="text-2xl font-bold mb-2">Upgrade</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-6xl font-black">1.090.000đ</span>
+<span class="opacity-80">/tháng</span>
+</div>
+</div>
+<ul class="grid grid-cols-1 gap-5 mb-10 text-white">
+<li class="flex items-center gap-3 text-sm font-bold"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span> Tất cả tính năng Basic</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span> Scan &amp; Chuyển tiếp thư miễn phí</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span> Hỗ trợ mở TK Ngân hàng (3 lần)</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span> Hỗ trợ đăng ký kinh doanh</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span> 3 tháng Kế toán miễn phí</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span> Thay đổi GPKD (2 lần/năm)</li>
+</ul>
+<button class="w-full py-5 rounded-full font-bold bg-white text-primary hover:scale-[1.02] transition-transform shadow-xl">Bắt đầu ngay</button>
+</div>
+<div class="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white p-10 rounded-3xl shadow-lg border border-outline-variant/10">
+<div class="mb-8">
+<h3 class="text-2xl font-bold mb-2">Premium</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-5xl font-black text-primary">1.190.000đ</span>
+<span class="text-on-surface-variant font-bold">/tháng</span>
+</div>
+</div>
+<ul class="space-y-5 mb-10">
+<li class="flex items-center gap-3 text-sm font-bold"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Tất cả đặc quyền Upgrade</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Ưu tiên mở 5 TK Ngân hàng</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Miễn phí 01 bộ Logo chuyên nghiệp</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Miễn phí thiết kế Landing Page</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span> Tư vấn pháp lý 24/7</li>
+</ul>
+<button class="w-full py-4 rounded-full font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all">Chọn Premium</button>
+</div>
+</div>
+</div>
+</section>
+<section class="relative py-40 bg-surface overflow-hidden">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] opacity-5 -z-0">
+<span class="material-symbols-outlined text-[600px] text-primary select-none">format_quote</span>
+</div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-center mb-24">Khách hàng nói về chúng tôi</h2>
+<div class="flex flex-col gap-12">
+<div class="flex flex-col md:flex-row items-center gap-8 md:w-[70%]">
+<img alt="Nguyễn Minh Quân" class="w-32 h-32 md:w-48 md:h-48 rounded-[3rem] object-cover shadow-2xl rotate-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNIs5toSJjupNOAyzB-JyEOPScRiyFWivE0nPaj0V14Ze4s-W35Ui96XvH9rG_tMElhtlF-egsFGN5geS5ibvEFl4ZkS7ZMThCD_4gYoyLY-dpFK79qy7oumGUCT5pSD-EOCVoGsIwNcjxWyc_aV5_qC7tObPIruIAsY5CFs6PrK6Vh4IUMecfEiXOJfuhtlRMoMI2fIfYKfuCFCuQVJMquSMG0kzBhqh70Um66CqTkVNt039_O-1z-BBNxd_-8pLWXsletKBXRdI"/>
+<div class="glass-morphism p-8 md:p-12 rounded-[2.5rem] shadow-xl relative">
+<p class="text-xl md:text-2xl font-medium italic leading-relaxed text-on-surface mb-6">"Dịch vụ tại LITE Space cực kỳ chuyên nghiệp. Việc xử lý thư tín nhanh gọn giúp tôi tiết kiệm rất nhiều thời gian để tập trung phát triển sản phẩm."</p>
+<div>
+<h4 class="font-bold text-lg">Nguyễn Minh Quân</h4>
+<p class="text-sm text-primary font-black uppercase tracking-widest">Founder, TechWave Solutions</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row-reverse items-center gap-8 md:w-[70%] md:ml-auto">
+<img alt="Lê Phương Thảo" class="w-32 h-32 md:w-48 md:h-48 rounded-[3rem] object-cover shadow-2xl -rotate-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuQoMW-Le-t2tYhfgxKL8Fnsh37xIhfe-M9k2tXk2DxnTug0iihho-b0AaAV18eXBCRN3vi-C3vTHepMuez1jE0YgvY083G06ehfLVbX6PFD64dmyUfNfXHVBnOUC2A4wdDovqRrXTk_hIh0Gl6CrdGHCSUCSldxaxRbfMm_i-TYgjrIs-isWrM-aOY9cGyjOrb0Wpja7PQZS_PQZ3y2OzzoXQJCzkTIlPNYlSV91UmQHSvynYvBwgwt8nttmLuNaGRDn59bfuVhw"/>
+<div class="glass-morphism p-8 md:p-12 rounded-[2.5rem] shadow-xl relative">
+<p class="text-xl md:text-2xl font-medium italic leading-relaxed text-on-surface mb-6">"Địa chỉ văn phòng tại đây rất uy tín, khách hàng của tôi luôn ấn tượng khi đến làm việc. Chi phí vô cùng hợp lý cho Startup."</p>
+<div>
+<h4 class="font-bold text-lg">Lê Phương Thảo</h4>
+<p class="text-sm text-primary font-black uppercase tracking-widest">CEO, Bloom Marketing</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row items-center gap-8 md:w-[70%]">
+<img alt="Trần Văn Hùng" class="w-32 h-32 md:w-48 md:h-48 rounded-[3rem] object-cover shadow-2xl rotate-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9pvs7xZvJgh4Njy4AnmWYxZbQe4bJSoUuHSp9WWV707Vudk-TOVc3A7Dr6z2nBo5dTk2GDgT_eLQMhKkZ488y5ShUeNcY5aFsLxHfmgXD7K7Diek_kFcwfYZHQ1-SkpRt7KtD41kQWeAo-0cdEPqRNSpv4ze6wD-cRDLNyyfIkpn4RHVIQa_Hp4f5KgMyAaL3KIF01y4Nyc-52sIPh2xxhosTAi3_kTJFfZ0NUHQNmo2yNy3hLL9M8NrGnTMmVTDT6tBrZx6Xjc0"/>
+<div class="glass-morphism p-8 md:p-12 rounded-[2.5rem] shadow-xl relative">
+<p class="text-xl md:text-2xl font-medium italic leading-relaxed text-on-surface mb-6">"Sự hỗ trợ nhiệt tình về mặt pháp lý và mở tài khoản ngân hàng của LITE Space là điều tôi đánh giá cao nhất."</p>
+<div>
+<h4 class="font-bold text-lg">Trần Văn Hùng</h4>
+<p class="text-sm text-primary font-black uppercase tracking-widest">Giám đốc, Logistics Việt</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-primary relative overflow-hidden" id="contact">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-0 left-0 w-96 h-96 bg-white blur-[120px] rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+<div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-white blur-[150px] rounded-full translate-x-1/2 translate-y-1/2"></div>
+</div>
+<div class="max-w-4xl mx-auto px-6 relative z-10">
+<div class="bg-white/95 backdrop-blur-xl p-8 md:p-16 rounded-[3rem] shadow-2xl">
+<div class="text-center mb-12">
+<h2 class="font-headline text-3xl md:text-5xl font-extrabold mb-6">Sẵn sàng nâng tầm doanh nghiệp?</h2>
+<p class="text-on-surface-variant text-lg">Để lại thông tin, đội ngũ chuyên gia của chúng tôi sẽ liên hệ tư vấn trong 15 phút.</p>
+</div>
+<form class="grid md:grid-cols-2 gap-8">
+<div class="space-y-3">
+<label class="text-sm font-black text-on-surface/60 uppercase tracking-widest ml-1">Họ và tên</label>
+<input class="w-full px-6 py-4 rounded-2xl bg-surface border-transparent focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" placeholder="Ví dụ: Nguyễn Văn A" type="text"/>
+</div>
+<div class="space-y-3">
+<label class="text-sm font-black text-on-surface/60 uppercase tracking-widest ml-1">Số điện thoại</label>
+<input class="w-full px-6 py-4 rounded-2xl bg-surface border-transparent focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" placeholder="090x xxx xxx" type="tel"/>
+</div>
+<div class="md:col-span-2 space-y-3">
+<label class="text-sm font-black text-on-surface/60 uppercase tracking-widest ml-1">Email</label>
+<input class="w-full px-6 py-4 rounded-2xl bg-surface border-transparent focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" placeholder="email@congty.com" type="email"/>
+</div>
+<div class="md:col-span-2 space-y-3">
+<label class="text-sm font-black text-on-surface/60 uppercase tracking-widest ml-1">Ghi chú thêm</label>
+<textarea class="w-full px-6 py-4 rounded-2xl bg-surface border-transparent focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" placeholder="Bạn cần tư vấn về gói dịch vụ nào?" rows="3"></textarea>
+</div>
+<div class="md:col-span-2 pt-6">
+<button class="w-full py-6 rounded-full bg-primary text-on-primary font-bold text-2xl shadow-xl shadow-primary/30 hover:scale-[1.01] transition-transform" type="submit">
+                                Gửi yêu cầu ngay
+                            </button>
+</div>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-slate-900 text-slate-400 w-full py-20">
+<div class="max-w-7xl mx-auto px-12 flex flex-col md:flex-row justify-between items-center gap-12">
+<div class="space-y-4 text-center md:text-left">
+<div class="text-3xl font-black text-white font-headline">LITE Space</div>
+<p class="font-manrope text-xs tracking-wide uppercase font-semibold max-w-xs">
+                    © 2024 LITE Space. Built for the Aerostat Collective.
+                </p>
+</div>
+<div class="flex flex-wrap justify-center gap-8 font-manrope text-xs tracking-wide uppercase font-black">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-white transition-colors" href="#">Twitter</a>
+<a class="hover:text-white transition-colors" href="#">LinkedIn</a>
+<a class="hover:text-white transition-colors" href="#">Support</a>
+</div>
+</div>
+</footer>
+
+</body></html>
