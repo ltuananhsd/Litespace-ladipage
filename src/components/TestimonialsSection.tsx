@@ -5,16 +5,16 @@ import Image from "next/image";
 
 export default function TestimonialsSection() {
   return (
-    <section className="relative py-40 bg-transparent overflow-hidden">
+    <section className="relative py-20 lg:py-28 bg-transparent overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] opacity-5 -z-0">
-        <span className="material-symbols-outlined text-[600px] text-primary select-none">format_quote</span>
+        <span className="material-symbols-outlined text-[400px] text-primary select-none">format_quote</span>
       </div>
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="font-headline text-4xl md:text-5xl font-extrabold text-center mb-24"
+          className="font-headline text-3xl md:text-4xl font-extrabold text-center mb-16"
         >
           Khách hàng nói về chúng tôi
         </motion.h2>
@@ -35,8 +35,8 @@ export default function TestimonialsSection() {
                 fill
               />
             </div>
-            <div className="glass-morphism p-8 md:p-12 rounded-[2.5rem] shadow-xl relative">
-              <p className="text-xl md:text-2xl font-medium italic leading-relaxed text-on-surface mb-6">"Dịch vụ tại LITE Space cực kỳ chuyên nghiệp. Việc xử lý thư tín nhanh gọn giúp tôi tiết kiệm rất nhiều thời gian để tập trung phát triển sản phẩm."</p>
+            <div className="glass-morphism p-6 md:p-8 rounded-[2.5rem] shadow-xl relative">
+              <p className="text-lg md:text-xl font-medium italic leading-relaxed text-on-surface mb-6">"Dịch vụ tại LITE Space cực kỳ chuyên nghiệp. Việc xử lý thư tín nhanh gọn giúp tôi tiết kiệm rất nhiều thời gian để tập trung phát triển sản phẩm."</p>
               <div>
                 <h4 className="font-bold text-lg">Nguyễn Minh Quân</h4>
                 <p className="text-sm text-primary font-black uppercase tracking-widest">Founder, TechWave Solutions</p>
@@ -58,8 +58,8 @@ export default function TestimonialsSection() {
                 fill
               />
             </div>
-            <div className="glass-morphism p-8 md:p-12 rounded-[2.5rem] shadow-xl relative">
-              <p className="text-xl md:text-2xl font-medium italic leading-relaxed text-on-surface mb-6">"Địa chỉ văn phòng tại đây rất uy tín, khách hàng của tôi luôn ấn tượng khi đến làm việc. Chi phí vô cùng hợp lý cho Startup."</p>
+            <div className="glass-morphism p-6 md:p-8 rounded-[2.5rem] shadow-xl relative">
+              <p className="text-lg md:text-xl font-medium italic leading-relaxed text-on-surface mb-6">"Địa chỉ văn phòng tại đây rất uy tín, khách hàng của tôi luôn ấn tượng khi đến làm việc. Chi phí vô cùng hợp lý cho Startup."</p>
               <div>
                 <h4 className="font-bold text-lg">Lê Phương Thảo</h4>
                 <p className="text-sm text-primary font-black uppercase tracking-widest">CEO, Bloom Marketing</p>
@@ -81,8 +81,8 @@ export default function TestimonialsSection() {
                 fill
               />
             </div>
-            <div className="glass-morphism p-8 md:p-12 rounded-[2.5rem] shadow-xl relative">
-              <p className="text-xl md:text-2xl font-medium italic leading-relaxed text-on-surface mb-6">"Sự hỗ trợ nhiệt tình về mặt pháp lý và mở tài khoản ngân hàng của LITE Space là điều tôi đánh giá cao nhất."</p>
+            <div className="glass-morphism p-6 md:p-8 rounded-[2.5rem] shadow-xl relative">
+              <p className="text-lg md:text-xl font-medium italic leading-relaxed text-on-surface mb-6">"Sự hỗ trợ nhiệt tình về mặt pháp lý và mở tài khoản ngân hàng của LITE Space là điều tôi đánh giá cao nhất."</p>
               <div>
                 <h4 className="font-bold text-lg">Trần Văn Hùng</h4>
                 <p className="text-sm text-primary font-black uppercase tracking-widest">Giám đốc, Logistics Việt</p>

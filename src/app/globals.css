@@ -73,6 +73,16 @@
   }
 }
 
+/* Responsive typography - tự co dãn theo viewport */
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+/* Giới hạn max-width cho nội dung chữ để dễ đọc */
+p {
+  text-wrap: pretty;
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-on-background);

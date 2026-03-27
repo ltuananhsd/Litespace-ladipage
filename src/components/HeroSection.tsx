@@ -29,14 +29,14 @@ export default function HeroSection() {
           </span>
           Giải pháp văn phòng 4.0
         </div>
-        <h1 className="font-headline text-5xl md:text-8xl font-extrabold text-white leading-[1.1] tracking-tight mb-8">
+        <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] tracking-tight mb-6">
           Văn phòng ảo <span className="text-primary-container">chuyên nghiệp</span>
         </h1>
-        <p className="text-xl md:text-2xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed">
           Tiết kiệm chi phí – Vận hành linh hoạt – Địa chỉ uy tín. Khởi tạo sự nghiệp vững chắc cùng LITE Space.
         </p>
-        <div className="mt-12 flex justify-center gap-4">
-          <Link href="/register" className="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-xl shadow-2xl hover:scale-105 transition-all">
+        <div className="mt-10 flex justify-center gap-4">
+          <Link href="/register" className="bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:scale-105 transition-all">
             Đăng ký ngay
           </Link>
         </div>

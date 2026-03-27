@@ -18,8 +18,8 @@ export default function FeaturesSection() {
   };
 
   return (
-    <section className="relative min-h-screen py-32 bg-transparent">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+    <section className="relative min-h-screen py-20 lg:py-28 bg-transparent">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-center">
         <div className="space-y-12">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -27,7 +27,7 @@ export default function FeaturesSection() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="font-headline text-4xl md:text-6xl font-extrabold tracking-tight">Tại sao chọn LITE Space?</h2>
+            <h2 className="font-headline text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight">Tại sao chọn LITE Space?</h2>
             <p className="text-on-surface-variant text-xl mt-4">Tối ưu hóa nguồn lực để tập trung vào giá trị cốt lõi.</p>
           </motion.div>
 
@@ -41,13 +41,13 @@ export default function FeaturesSection() {
           >
             {/* Column 1 */}
             <div className="space-y-6 pt-12">
-              <motion.div variants={itemVariants} className="glass-morphism p-8 rounded-3xl shadow-xl border border-outline-variant/10">
+              <motion.div variants={itemVariants} className="glass-morphism p-6 rounded-3xl shadow-xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-4xl mb-4 text-glow">location_on</span>
                 <h3 className="font-bold text-lg mb-2">Địa chỉ uy tín</h3>
                 <p className="text-sm text-on-surface-variant leading-relaxed">Vị trí đắc địa tại trung tâm thành phố giúp nâng tầm hình ảnh thương hiệu.</p>
               </motion.div>
 
-              <motion.div variants={itemVariants} className="glass-morphism p-8 rounded-3xl shadow-xl border border-outline-variant/10">
+              <motion.div variants={itemVariants} className="glass-morphism p-6 rounded-3xl shadow-xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-4xl mb-4 text-glow">mark_as_unread</span>
                 <h3 className="font-bold text-lg mb-2">Xử lý thư tín</h3>
                 <p className="text-sm text-on-surface-variant leading-relaxed">Nhận và thông báo thư từ, bưu phẩm ngay lập tức qua App/Email.</p>
@@ -56,13 +56,13 @@ export default function FeaturesSection() {
 
             {/* Column 2 */}
             <div className="space-y-6">
-              <motion.div variants={itemVariants} className="glass-morphism p-8 rounded-3xl shadow-xl border border-outline-variant/10">
+              <motion.div variants={itemVariants} className="glass-morphism p-6 rounded-3xl shadow-xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-4xl mb-4 text-glow">support_agent</span>
                 <h3 className="font-bold text-lg mb-2">Lễ tân chuyên nghiệp</h3>
                 <p className="text-sm text-on-surface-variant leading-relaxed">Đội ngũ lễ tân được đào tạo bài bản, đón tiếp khách hàng chu đáo.</p>
               </motion.div>
 
-              <motion.div variants={itemVariants} className="glass-morphism p-8 rounded-3xl shadow-xl border border-outline-variant/10">
+              <motion.div variants={itemVariants} className="glass-morphism p-6 rounded-3xl shadow-xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-4xl mb-4 text-glow">savings</span>
                 <h3 className="font-bold text-lg mb-2">Tiết kiệm 90%</h3>
                 <p className="text-sm text-on-surface-variant leading-relaxed">Giảm tối đa chi phí vận hành so với thuê văn phòng truyền thống.</p>
@@ -88,7 +88,7 @@ export default function FeaturesSection() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative w-full h-[600px] rounded-[4rem] overflow-hidden shadow-2xl">
+          <div className="relative w-full h-[400px] lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
               alt="Office Lifestyle"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
