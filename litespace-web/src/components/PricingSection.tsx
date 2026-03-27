@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function PricingSection() {
   return (
@@ -39,7 +40,7 @@ export default function PricingSection() {
               <li className="flex items-center gap-3 text-sm font-medium opacity-50"><span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span> Scan thư (có phí)</li>
               <li className="flex items-center gap-3 text-sm font-medium"><span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span> Danh thiếp tiêu chuẩn</li>
             </ul>
-            <button className="w-full mt-auto py-4 rounded-full font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all">Chọn Basic</button>
+            <Link href="/register?plan=basic" className="block w-full mt-auto py-4 rounded-full font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all text-center">Chọn Basic</Link>
           </motion.div>
           
           <motion.div 
@@ -65,7 +66,7 @@ export default function PricingSection() {
               <li className="flex items-center gap-3 text-sm"><span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span> 3 tháng Kế toán miễn phí</li>
               <li className="flex items-center gap-3 text-sm"><span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span> Thay đổi GPKD (2 lần/năm)</li>
             </ul>
-            <button className="w-full mt-auto py-5 rounded-full font-bold bg-white text-primary border-2 border-slate-900 hover:scale-[1.02] transition-transform shadow-xl">Bắt đầu ngay</button>
+            <Link href="/register?plan=upgrade" className="block w-full mt-auto py-5 rounded-full font-bold bg-white text-primary border-2 border-slate-900 hover:scale-[1.02] transition-transform shadow-xl text-center">Bắt đầu ngay</Link>
           </motion.div>
           
           <motion.div 
@@ -89,7 +90,7 @@ export default function PricingSection() {
               <li className="flex items-center gap-3 text-sm font-medium"><span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span> Miễn phí thiết kế Landing Page</li>
               <li className="flex items-center gap-3 text-sm font-medium"><span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span> Tư vấn pháp lý 24/7</li>
             </ul>
-            <button className="w-full mt-auto py-4 rounded-full font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all">Chọn Premium</button>
+            <Link href="/register?plan=premium" className="block w-full mt-auto py-4 rounded-full font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all text-center">Chọn Premium</Link>
           </motion.div>
 
         </div>

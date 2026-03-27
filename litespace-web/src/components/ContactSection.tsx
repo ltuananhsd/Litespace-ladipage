@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function ContactSection() {
   return (
@@ -41,9 +42,9 @@ export default function ContactSection() {
               <textarea className="w-full px-6 py-4 rounded-2xl bg-surface border-transparent focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all outline-none" placeholder="Bạn cần tư vấn về gói dịch vụ nào?" rows={3}></textarea>
             </div>
             <div className="md:col-span-2 pt-6">
-              <button className="w-full py-6 rounded-full bg-primary text-on-primary font-bold text-2xl shadow-xl shadow-primary/30 hover:scale-[1.01] transition-transform" type="button">
+              <Link href="/contact" className="block w-full py-6 rounded-full bg-primary text-on-primary font-bold text-2xl shadow-xl shadow-primary/30 hover:scale-[1.01] transition-transform text-center">
                 Gửi yêu cầu ngay
-              </button>
+              </Link>
             </div>
           </form>
         </motion.div>

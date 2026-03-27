@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -35,9 +36,9 @@ export default function HeroSection() {
           Tiết kiệm chi phí – Vận hành linh hoạt – Địa chỉ uy tín. Khởi tạo sự nghiệp vững chắc cùng LITE Space.
         </p>
         <div className="mt-12 flex justify-center gap-4">
-          <button className="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-xl shadow-2xl hover:scale-105 transition-all">
+          <Link href="/register" className="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-xl shadow-2xl hover:scale-105 transition-all">
             Đăng ký ngay
-          </button>
+          </Link>
         </div>
       </motion.div>
     </section>
