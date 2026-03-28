@@ -4,8 +4,8 @@ import fs from 'fs';
 import path from 'path';
 
 const openai = new OpenAI({
-  baseURL: 'https://9router.vuhai.io.vn/v1',
-  apiKey: 'sk-4bd27113b7dc78d1-lh6jld-f4f9c69f',
+  baseURL: process.env.OPENAI_BASE_URL || 'https://9router.vuhai.io.vn/v1',
+  apiKey: process.env.OPENAI_API_KEY || '',
 });
 
 export async function POST(req: Request) {
