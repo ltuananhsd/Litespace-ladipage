@@ -1,62 +1,59 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import StepProgress from "@/components/shared/StepProgress";
+import { useRegistration } from "@/hooks/useRegistration";
 
-type OrderData = {
-  plan: {
-    id: string;
-    name: string;
-    price: string;
-  };
-  customer: {
-    fullName: string;
-    phone: string;
-    email: string;
-  };
-};
+// Các bước tiếp theo sau khi đăng ký
+const nextSteps = [
+  {
+    icon: "mark_email_read",
+    title: "Kiểm tra email",
+    description:
+      "Email xác nhận đã được gửi. Vui lòng kiểm tra hộp thư (bao gồm cả Spam).",
+  },
+  {
+    icon: "support_agent",
+    title: "Tư vấn viên liên hệ",
+    description:
+      "Đội ngũ LITE Space sẽ liên hệ bạn trong vòng 15 phút để xác nhận và hướng dẫn.",
+  },
+  {
+    icon: "description",
+    title: "Xử lý hồ sơ",
+    description:
+      "Hợp đồng và giấy tờ pháp lý sẽ được xử lý trong 1-3 ngày làm việc.",
+  },
+  {
+    icon: "rocket_launch",
+    title: "Kích hoạt dịch vụ",
+    description:
+      "Dịch vụ văn phòng ảo được kích hoạt trong 24 giờ sau khi hoàn tất hồ sơ.",
+  },
+];
 
 export default function SuccessContent() {
-  const [order, setOrder] = useState<OrderData | null>(null);
+  const { state, resetState } = useRegistration();
 
+  // Tự động xóa data registration sau 5 phút (để user có thể đăng ký lại)
   useEffect(() => {
-    const stored = sessionStorage.getItem("litespace_order");
-    if (stored) {
-      setOrder(JSON.parse(stored));
-    }
-  }, []);
-
-  // Các bước tiếp theo sau khi đăng ký
-  const nextSteps = [
-    {
-      icon: "mark_email_read",
-      title: "Kiểm tra email",
-      description: "Chúng tôi đã gửi email xác nhận đến địa chỉ email bạn đã đăng ký. Vui lòng kiểm tra hộp thư (bao gồm cả thư mục Spam).",
-    },
-    {
-      icon: "support_agent",
-      title: "Tư vấn viên liên hệ",
-      description: "Đội ngũ LITE Space sẽ liên hệ bạn qua điện thoại trong vòng 15 phút để xác nhận thông tin và hướng dẫn các bước tiếp theo.",
-    },
-    {
-      icon: "description",
-      title: "Ký hợp đồng",
-      description: "Sau khi xác nhận, hợp đồng điện tử sẽ được gửi qua email. Bạn có thể ký trực tuyến mà không cần gặp trực tiếp.",
-    },
-    {
-      icon: "rocket_launch",
-      title: "Kích hoạt dịch vụ",
-      description: "Dịch vụ văn phòng ảo sẽ được kích hoạt trong vòng 24 giờ sau khi hợp đồng được ký kết hoàn tất.",
-    },
-  ];
+    const timer = setTimeout(() => {
+      resetState();
+    }, 5 * 60 * 1000);
+    return () => clearTimeout(timer);
+  }, [resetState]);
 
   return (
     <>
+      <StepProgress currentStep={10} totalSteps={10} />
+
       {/* === HERO THÀNH CÔNG === */}
-      <section className="relative pt-40 pb-16 overflow-hidden">
+      <section className="relative pb-16 overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-green-500/5 rounded-full blur-[150px]" />
+          <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-primary/5 rounded-full blur-[120px]" />
         </div>
 
         <div className="max-w-3xl mx-auto px-6 text-center">
@@ -80,43 +77,46 @@ export default function SuccessContent() {
               </span>
             </motion.div>
 
-            {/* Thanh tiến trình hoàn tất */}
-            <div className="flex items-center justify-center gap-4 mb-10">
-              {[
-                { num: 1, label: "Chọn gói & Thông tin" },
-                { num: 2, label: "Thanh toán" },
-                { num: 3, label: "Hoàn tất" },
-              ].map((s, i) => (
-                <div key={s.num} className="flex items-center gap-4">
-                  <div className="flex items-center gap-2">
-                    <div className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold bg-primary text-white">
-                      <span className="material-symbols-outlined text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>check</span>
-                    </div>
-                    <span className="text-sm font-medium hidden sm:inline text-primary">
-                      {s.label}
-                    </span>
-                  </div>
-                  {i < 2 && (
-                    <div className="w-8 md:w-16 h-[2px] bg-primary" />
-                  )}
-                </div>
-              ))}
-            </div>
-
             <h1 className="font-headline text-4xl md:text-6xl font-extrabold text-on-surface tracking-tight mb-4">
               Đăng ký{" "}
               <span className="text-green-600">thành công!</span>
             </h1>
             <p className="text-on-surface-variant text-lg max-w-lg mx-auto">
-              {order ? (
+              {state.contactInfo ? (
                 <>
-                  Cảm ơn <strong className="text-on-surface">{order.customer.fullName}</strong>! Đăng ký gói{" "}
-                  <strong className="text-primary">{order.plan.name}</strong> đã được ghi nhận.
+                  Cảm ơn{" "}
+                  <strong className="text-on-surface">
+                    {state.contactInfo.fullName}
+                  </strong>
+                  ! Đăng ký gói{" "}
+                  <strong className="text-primary capitalize">
+                    {state.selectedPackage?.name}
+                  </strong>{" "}
+                  tại{" "}
+                  <strong className="text-on-surface">
+                    {state.selectedBuilding?.name}
+                  </strong>{" "}
+                  đã được ghi nhận.
                 </>
               ) : (
                 "Đăng ký dịch vụ văn phòng ảo của bạn đã được ghi nhận thành công."
               )}
             </p>
+
+            {/* Mã đơn hàng */}
+            {state.contractId && (
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5 }}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/10 text-primary font-bold text-sm mt-6"
+              >
+                <span className="material-symbols-outlined text-base">
+                  confirmation_number
+                </span>
+                Mã đơn: {state.contractId}
+              </motion.div>
+            )}
           </motion.div>
         </div>
       </section>
@@ -133,7 +133,7 @@ export default function SuccessContent() {
             Các bước tiếp theo
           </motion.h2>
 
-          <div className="space-y-6">
+          <div className="space-y-4">
             {nextSteps.map((step, index) => (
               <motion.div
                 key={index}
@@ -141,9 +141,8 @@ export default function SuccessContent() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-30px" }}
                 transition={{ delay: index * 0.1, duration: 0.5 }}
-                className="flex gap-5 items-start bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-outline-variant/10"
+                className="flex gap-5 items-start bg-surface-container-lowest p-6 md:p-8 rounded-[2rem]"
               >
-                {/* Số thứ tự */}
                 <div className="shrink-0">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
                     <span
@@ -154,14 +153,15 @@ export default function SuccessContent() {
                     </span>
                   </div>
                 </div>
-
                 <div>
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-xs font-black text-primary bg-primary/10 px-2 py-0.5 rounded-full">
                       Bước {index + 1}
                     </span>
                   </div>
-                  <h3 className="font-bold text-lg mb-1">{step.title}</h3>
+                  <h3 className="font-bold text-lg mb-1 text-on-surface">
+                    {step.title}
+                  </h3>
                   <p className="text-sm text-on-surface-variant leading-relaxed">
                     {step.description}
                   </p>
@@ -191,46 +191,50 @@ export default function SuccessContent() {
             </div>
 
             <div className="grid sm:grid-cols-3 gap-4">
-              <a
-                href="https://zalo.me/0901234567"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 p-4 bg-white/10 hover:bg-white/20 rounded-2xl transition-colors group"
-              >
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center shrink-0">
-                  <span className="material-symbols-outlined text-white text-xl">chat</span>
-                </div>
-                <div>
-                  <p className="font-bold text-white text-sm">Nhắn Zalo</p>
-                  <p className="text-[11px] text-white/60">Phản hồi 5 phút</p>
-                </div>
-              </a>
-
-              <a
-                href="tel:19001234"
-                className="flex items-center gap-3 p-4 bg-white/10 hover:bg-white/20 rounded-2xl transition-colors group"
-              >
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center shrink-0">
-                  <span className="material-symbols-outlined text-white text-xl" style={{ fontVariationSettings: "'FILL' 1" }}>call</span>
-                </div>
-                <div>
-                  <p className="font-bold text-white text-sm">Gọi Hotline</p>
-                  <p className="text-[11px] text-white/60">1900 xxxx</p>
-                </div>
-              </a>
-
-              <a
-                href="mailto:support@litespace.vn"
-                className="flex items-center gap-3 p-4 bg-white/10 hover:bg-white/20 rounded-2xl transition-colors group"
-              >
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center shrink-0">
-                  <span className="material-symbols-outlined text-white text-xl" style={{ fontVariationSettings: "'FILL' 1" }}>mail</span>
-                </div>
-                <div>
-                  <p className="font-bold text-white text-sm">Gửi Email</p>
-                  <p className="text-[11px] text-white/60">support@litespace.vn</p>
-                </div>
-              </a>
+              {[
+                {
+                  href: "https://zalo.me/0901234567",
+                  icon: "chat",
+                  title: "Nhắn Zalo",
+                  sub: "Phản hồi 5 phút",
+                  external: true,
+                },
+                {
+                  href: "tel:19001234",
+                  icon: "call",
+                  title: "Gọi Hotline",
+                  sub: "1900 xxxx",
+                  external: false,
+                },
+                {
+                  href: "mailto:support@litespace.vn",
+                  icon: "mail",
+                  title: "Gửi Email",
+                  sub: "support@litespace.vn",
+                  external: false,
+                },
+              ].map((item) => (
+                <a
+                  key={item.title}
+                  href={item.href}
+                  target={item.external ? "_blank" : undefined}
+                  rel={item.external ? "noopener noreferrer" : undefined}
+                  className="flex items-center gap-3 p-4 bg-white/10 hover:bg-white/20 rounded-2xl transition-colors"
+                >
+                  <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center shrink-0">
+                    <span
+                      className="material-symbols-outlined text-white text-xl"
+                      style={{ fontVariationSettings: "'FILL' 1" }}
+                    >
+                      {item.icon}
+                    </span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-white text-sm">{item.title}</p>
+                    <p className="text-[11px] text-white/60">{item.sub}</p>
+                  </div>
+                </a>
+              ))}
             </div>
 
             <div className="text-center mt-8">
