@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
 import "./globals.css";
+import PageAgentCopilotWrapper from "@/components/PageAgentCopilotWrapper";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
         className={`${plusJakartaSans.variable} ${manrope.variable} bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden antialiased`}
       >
         {children}
+        <PageAgentCopilotWrapper />
       </body>
     </html>
   );
